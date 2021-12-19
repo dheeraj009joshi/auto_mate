@@ -1,6 +1,8 @@
 import csv
 import time
 import random
+import matplotlib
+matplotlib.use('Agg')
 from instagrapi import Client
 from requests.api import request
 from tkinter import *
